@@ -19699,6 +19699,8 @@
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+    margin-top: -25px;
+    margin-bottom: -25px;
   }
   .navbar-expand-lg .container-lg {
     padding-right: 0;

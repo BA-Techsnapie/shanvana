@@ -4,13 +4,33 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 /* variable */
-:root {     
-    --base-color: #1B3250;
+:root {
+    --base-color: #184F1D;
+
+    /* ShanVana Brand Colors */
+    --brand-primary: #184F1D;
+    --brand-secondary: #2E7D32;
+    --brand-accent: #78B93B;
+    --brand-earth: #7B4B24;
+
+    /* Backgrounds */
+    --brand-bg: #FAF8F3;
+    --brand-bg-light: #F2F6EF;
+
+    /* Text */
+    --brand-text: #2B2B2B;
+    --brand-text-light: #666666;
+
+    /* Borders */
+    --brand-border: #E3E8DD;
+
+    /* Existing Theme */
     --dark-gray: #16202c;
     --medium-gray: #888e95;
+
     --alt-font: 'Plus Jakarta Sans', sans-serif;
     --primary-font: 'Plus Jakarta Sans', sans-serif;
-} 
+}
 /* reset */
 body {
     font-size: 16px;
@@ -328,6 +348,14 @@ footer ul li {
         
         width: auto !important;
         height: 110px !important;   /* Increase to 48–60px */
+        max-height: none !important;
+    }
+}
+@media (max-width: 991px) {
+    footer .footer-logo img {
+        
+        width: auto !important;
+        height: 80px !important;   /* Increase to 48–60px */
         max-height: none !important;
     }
 }

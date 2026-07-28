@@ -357,5 +357,6 @@ footer ul li {
         width: auto !important;
         height: 80px !important;   /* Increase to 48–60px */
         max-height: none !important;
+        
     }
 }

@@ -343,20 +343,20 @@ footer ul li {
     .rev_row_wrap {width: 60% !important; left: 20% !important; padding-top: 0px!important;}
     .left-column {min-height: 300px !important; max-height: 300px !important;height: 300px !important;}
 }
-@media (max-width: 991px) {
-    header .navbar-brand .mobile-logo {
-        
+/* Desktop & Laptop Logo */
+@media (min-width: 992px) {
+    header .navbar-brand .default-logo,
+    header .navbar-brand .alt-logo {
         width: auto !important;
-        height: 110px !important;   /* Increase to 48–60px */
+        height: 110px !important;   /* Adjust between 70px - 90px */
         max-height: none !important;
     }
-}
-@media (max-width: 991px) {
+
     footer .footer-logo img {
-        
         width: auto !important;
-        height: 80px !important;   /* Increase to 48–60px */
+        height: 100px !important;
         max-height: none !important;
-        
     }
 }
+@media (max-width: 991px) { header .navbar-brand .mobile-logo { width: auto !important; height: 110px !important; /* Increase to 48–60px */ max-height: none !important; } }
+@media (max-width: 991px) { footer .footer-logo img { width: auto !important; height: 80px !important; /* Increase to 48–60px */ max-height: none !important; } }
